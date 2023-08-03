@@ -106,10 +106,8 @@ At the end of the build it’ll create a binary in the `./bin` directory.
 
 Once your `OpenTelemetry Collector` is built, you can work on the configuration. Create a `config.yaml` file containing the following:
 
+https://github.com/albefaedda/confluent-cloud-monitoring-opentelemetry-new-relic/blob/209de724cbb759d895cead41bfb01098906efa72/opentelemetry-collector/config.yaml
 
-```
-
-```
 
 You need to replace the highlighted placeholders with the `API Key pairs` created previously, your `Confluent Cloud` cluster information (`bootstrap url` and `cluster id`), the `OTLP url` for New Relic and the `New Relic license key`.
 
@@ -132,6 +130,8 @@ Create a new dir for your Terraform configuration.
 Save your dashboard to `dashboards/cc-dashboard.json`.  
 Create the Terraform configuration `main.tf` which will contain your configuration as below. 
 
-```
+https://github.com/albefaedda/confluent-cloud-monitoring-opentelemetry-new-relic/blob/209de724cbb759d895cead41bfb01098906efa72/terraform/main.tf
 
-```
+--- 
+
+![Example Dashboard](./terraform/dashboards/dashboard.png) 
