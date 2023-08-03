@@ -130,7 +130,7 @@ Create a new dir for your Terraform configuration.
 Save your dashboard to `dashboards/cc-dashboard.json`.  
 Create the Terraform configuration `main.tf` which will contain your configuration as below: 
 
-https://github.com/albefaedda/confluent-cloud-monitoring-opentelemetry-new-relic/blob/0b493ee5b8d4431382735205e4c50e9f9eb9e034/terraform/main.tf#L1-L34
+https://github.com/albefaedda/confluent-cloud-monitoring-opentelemetry-new-relic/blob/0b493ee5b8d4431382735205e4c50e9f9eb9e034/terraform/main.tf#L1-L33
 
 --- 
 
